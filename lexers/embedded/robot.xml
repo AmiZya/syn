@@ -23,7 +23,7 @@
         <token type="Keyword"/>
       </rule>
       <rule pattern="\[Documentation\]|\[Tags\]|\[Setup\]|\[Teardown\]|\[Template\]|\[Timeout\]">
-        <token type="NameTag"/>
+        <token type="Name"/>
       </rule>
       <rule pattern="#.*$">
         <token type="Comment"/>
