@@ -28,7 +28,7 @@
       <rule pattern="#.*$">
         <token type="Comment"/>
       </rule>
-      <rule pattern="\$\{[^\}]+\}|\@{[^\}]+\}|\&\{[^\}]+\}">
+      <rule pattern="\$\{[^\}]+\}|\@{[^\}]+\}|&amp;\{[^\}]+\}">
         <token type="NameVariable"/>
       </rule>
       <rule pattern="^\s+\[.*\]">
@@ -49,7 +49,7 @@
       <rule pattern="^\s+\w+(\s+)+">
         <token type="NameFunction"/>
       </rule>
-      <rule pattern="\$\{[^\}]+\}|\@{[^\}]+\}|\&\{[^\}]+\}">
+      <rule pattern="\$\{[^\}]+\}|\@{[^\}]+\}|&amp;\{[^\}]+\}">
         <token type="NameVariable"/>
       </rule>
       <rule pattern="(True|False|None|null|on|off)\b">
