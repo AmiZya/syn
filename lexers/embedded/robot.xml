@@ -52,7 +52,7 @@
       <rule pattern="\$\{[^\}]+\}|\@{[^\}]+\}|&amp;\{[^\}]+\}">
         <token type="NameVariable"/>
       </rule>
-      <rule pattern="(True|False|None|null|on|off)\b">
+      <rule pattern="\b(True|False|None|null|on|off)\b">
         <token type="KeywordConstant"/>
       </rule>
       <rule pattern="&#34;(?:\\.|[^&#34;])*&#34;">
